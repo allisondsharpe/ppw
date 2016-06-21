@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Contact Us </title>
+  <link rel="stylesheet" type="text/css" href="css/contact.css">
+</head>
+<body>
+
+  <header>
+    <img src="assets/images/logo.png" alt="AA logo" id="logo"/>
+    <a href=""><button id="settings" class="main-btn" type="button">Settings</button></a>
+    <a href="logout.html"><button id="logout" class="main-btn" type="button">Log out</button></a>
+  </header>
+
+  <nav>
+    <ul>
+      <li class="border-right"><a href="home.html">Home</a></li>
+      <div class="dropdown"><li class="border-right" id="active-item"><a href="about.html">About Us</a>
+        <div class="dropdown-content"><a href="testimonials.html">Testimonials</a></li></div></div>
+      <div class="dropdown"><li class="border-right"><a href="entries.html">My Entries</a>
+        <div class="dropdown-content"><a href="add_entry.html">Add New Entry</a></li></div></div>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+
+  <div id="content">
+    <div id="contact_info">
+      <h1>Contact Us</h1>
+      <p>Call us at 555-555-5555 <br> or <br> Email us at myblog@anonaspirer.com</p>
+      <p>Follow us on Twitter <br> @anonaspirer</p>
+    </div>
+
+    <form>
+      <h3>Name:</h3>
+      <input type="text" />
+      <h3>Email:</h3>
+      <input type="text" />
+      <h3>Send us your feedback:</h3>
+      <textarea> </textarea> <br>
+      <a href="confirmation.html"><button type="button" class="main-btn">Submit</button></a>
+    </form>
+  </div>
+
+  <footer>
+    <section class="border-right">
+      <h4>Stay Tuned</h4>
+      <p>Connect with us on Twitter to see the latest news and updates.</p>
+      <img src="assets/icons/twitter_icon.png" style="width:20%" />
+    </section>
+    <section class="border-right">
+      <h4>Email Updates</h4>
+      <p>Enter in your email to receive our announcements and offers.</p>
+      <input type="text">
+    </section>
+    <section>
+      <h4>Contact Us</h4>
+      <p>Have any questions? Email us!</p>
+      <button id="footer-btn" type="button">Email Us</button>
+    </section>
+    <p style="text-align:center" id="copyright"> Copyright &copy; The Anonymous Aspirer, 2015. </p>
+  </footer>
+
+</body>
+</html>
